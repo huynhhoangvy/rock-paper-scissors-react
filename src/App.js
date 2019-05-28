@@ -74,9 +74,9 @@ renderPlayerPrompt() {
   if (this.state.playerChoice === "scissors") {
     return <Alert variant="danger"><h2>You choose Scissors!</h2></Alert>
   }   if (this.state.playerChoice === "rock") {
-    return <Alert variant="primary"><h2>You choose Rock!</h2></Alert>
+    return <Alert variant="warning"><h2>You choose Rock!</h2></Alert>
   }   if (this.state.playerChoice === "paper") {
-    return <Alert variant="warning"><h2>You choose Paper!</h2></Alert>
+    return <Alert variant="primary"><h2>You choose Paper!</h2></Alert>
   }
     return <Alert variant="dark"><h2>Choose your destiny!</h2></Alert>
 }
